@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T07:17:03.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lUjlMKXt4FKp4LIWcLNx" version="20.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-11T07:46:50.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PJAwdCnNfLsA2Kg3k7RH" version="20.8.3" type="github" pages="4">
   <diagram id="8liCXzgkEdSbJFoIxL7y" name="Page-1">
     <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -423,7 +423,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pCI8PzkVLYFDPNy5AL76-57" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fontSize=12;fillColor=#eeeeee;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="-418.5" width="360" height="308.5" as="geometry" />
+          <mxGeometry x="-430" y="-418.5" width="360" height="228.5" as="geometry" />
         </mxCell>
         <mxCell id="pCI8PzkVLYFDPNy5AL76-55" value="Knowledge schema tests" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;container=0;" parent="1" vertex="1">
           <mxGeometry x="-351.82" y="-293.5" width="40" height="40" as="geometry" />
@@ -464,10 +464,22 @@
         <mxCell id="Qq_xKi_vrYSKfrIKL8If-10" value="Knowledge schema exports" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;container=0;" vertex="1" parent="1">
           <mxGeometry x="-180" y="-373.5" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Qq_xKi_vrYSKfrIKL8If-11" value="&lt;font color=&quot;#878787&quot;&gt;calls&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pCI8PzkVLYFDPNy5AL76-57" target="pCI8PzkVLYFDPNy5AL76-48">
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-11" value="&lt;font color=&quot;#878787&quot;&gt;calls&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.997;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pCI8PzkVLYFDPNy5AL76-57" target="pCI8PzkVLYFDPNy5AL76-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280.75166666666655" y="-362.56655966393214" as="sourcePoint" />
             <mxPoint x="107.38250000000016" y="-268.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-14" value="Knowledge schema monitoring service" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=#23445d;fillColor=#bac8d3;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.monitoring_store;" vertex="1" parent="1">
+          <mxGeometry x="286.79999999999995" y="226" width="104.01" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-15" value="&lt;font color=&quot;#878787&quot;&gt;monitors&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qq_xKi_vrYSKfrIKL8If-14" target="5B4eKSMqDmNsk6Nh3mAL-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="867" y="-200" as="sourcePoint" />
+            <mxPoint x="439.9899999999998" y="-95" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="180" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
