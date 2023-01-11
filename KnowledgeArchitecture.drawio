@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T06:38:38.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="mR8sqVhokbOqN1m2Ei2j" version="20.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-11T07:17:03.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lUjlMKXt4FKp4LIWcLNx" version="20.8.3" type="github" pages="4">
   <diagram id="8liCXzgkEdSbJFoIxL7y" name="Page-1">
     <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -243,7 +243,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="il6jCBSIXkdWdruZ2cOz" name="Page-3">
+  <diagram id="il6jCBSIXkdWdruZ2cOz" name="Knowledge schema architecture">
     <mxGraphModel dx="2156" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -273,7 +273,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dT8nXwJIQIT8juGX9MND-3" value="Workbench" style="sketch=0;outlineConnect=0;gradientColor=#b3b3b3;strokeColor=#666666;fillColor=#f5f5f5;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;" parent="1" vertex="1">
-          <mxGeometry x="304.99" y="-280" width="60" height="60" as="geometry" />
+          <mxGeometry x="308.8" y="-287" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dT8nXwJIQIT8juGX9MND-4" value="&lt;font color=&quot;#878787&quot;&gt;presents knowledge&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;exitX=0.99;exitY=0.215;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#878787;" parent="1" source="dT8nXwJIQIT8juGX9MND-1" target="dT8nXwJIQIT8juGX9MND-3" edge="1">
           <mxGeometry x="0.4513" y="4" width="50" height="50" relative="1" as="geometry">
@@ -367,36 +367,6 @@
             <mxPoint x="402.9283333333333" y="-261.2397605783449" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-63" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="233" y="170" width="217" height="235" as="geometry" />
-        </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-57" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fontSize=12;fillColor=#eeeeee;" parent="pCI8PzkVLYFDPNy5AL76-63" vertex="1">
-          <mxGeometry width="217" height="235" as="geometry" />
-        </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-55" value="Ingestion jobs" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;" parent="pCI8PzkVLYFDPNy5AL76-63" vertex="1">
-          <mxGeometry x="29" y="37" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-59" value="Knowledge tests" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;" parent="pCI8PzkVLYFDPNy5AL76-63" vertex="1">
-          <mxGeometry x="123" y="37" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-60" value="Dag completion jobs" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;" parent="pCI8PzkVLYFDPNy5AL76-63" vertex="1">
-          <mxGeometry x="32" y="126" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-62" value="Backup" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;" parent="pCI8PzkVLYFDPNy5AL76-63" vertex="1">
-          <mxGeometry x="126" y="126" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-64" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=0.304;entryY=0.004;entryDx=0;entryDy=0;strokeColor=#878787;entryPerimeter=0;exitX=0.316;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="5B4eKSMqDmNsk6Nh3mAL-12" target="pCI8PzkVLYFDPNy5AL76-57" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="130" as="sourcePoint" />
-            <mxPoint x="249.99" y="77.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pCI8PzkVLYFDPNy5AL76-65" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#878787;" parent="1" source="pCI8PzkVLYFDPNy5AL76-57" target="5B4eKSMqDmNsk6Nh3mAL-12" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="124.54500000000007" y="172.14499999999998" as="sourcePoint" />
-            <mxPoint x="259.99" y="87.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pCI8PzkVLYFDPNy5AL76-66" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="580" y="-500" width="365" height="200" as="geometry" />
         </mxCell>
@@ -443,13 +413,61 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhwIeDvVKAI0KNnNKcmK-4" value="Knowledge&lt;br&gt;vault" style="sketch=0;outlineConnect=0;strokeColor=#23445d;fillColor=#bac8d3;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" vertex="1" parent="1">
+        <mxCell id="rhwIeDvVKAI0KNnNKcmK-4" value="Knowledge&lt;br&gt;schema vault" style="sketch=0;outlineConnect=0;strokeColor=#23445d;fillColor=#bac8d3;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" vertex="1" parent="1">
           <mxGeometry x="-177" y="141.5" width="85.5" height="85.5" as="geometry" />
         </mxCell>
         <mxCell id="rhwIeDvVKAI0KNnNKcmK-7" value="&lt;font color=&quot;#878787&quot;&gt;reads schema&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rhwIeDvVKAI0KNnNKcmK-4" target="5B4eKSMqDmNsk6Nh3mAL-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="249.03999999999996" y="-18.410000000000082" as="sourcePoint" />
             <mxPoint x="105.5" y="-18.58258717131048" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCI8PzkVLYFDPNy5AL76-57" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fontSize=12;fillColor=#eeeeee;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="-418.5" width="360" height="308.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pCI8PzkVLYFDPNy5AL76-55" value="Knowledge schema tests" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-351.82" y="-293.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-3" value="&lt;font color=&quot;#000000&quot;&gt;Knowledge&lt;br&gt;schema jobs&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#878787;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-357.9980184331797" y="-418.49957446808514" width="213.17972350230417" height="35.744680851063826" as="geometry" />
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-4" value="&lt;font color=&quot;#878787&quot;&gt;calls&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=0.915;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dT8nXwJIQIT8juGX9MND-3" target="pCI8PzkVLYFDPNy5AL76-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280.75166666666655" y="-362.56655966393214" as="sourcePoint" />
+            <mxPoint x="107.38250000000016" y="-268.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-5" value="Knowledge schema reasoning&lt;br&gt;engine" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/success-filloutline/64/brain-think-brainstorm-creative-idea-128.png;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="857" y="-240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-6" value="&lt;font color=&quot;#878787&quot;&gt;uses&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pCI8PzkVLYFDPNy5AL76-20" target="Qq_xKi_vrYSKfrIKL8If-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="318.8000000000002" y="-249.67172015284723" as="sourcePoint" />
+            <mxPoint x="107.38250000000016" y="-268.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-7" value="&lt;font color=&quot;#878787&quot;&gt;refers to&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qq_xKi_vrYSKfrIKL8If-5" target="5B4eKSMqDmNsk6Nh3mAL-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="328.8000000000002" y="-239.67172015284723" as="sourcePoint" />
+            <mxPoint x="117.38250000000016" y="-258.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="-220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-8" value="Knowledge schema imports" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-373.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-9" value="Knowledge schema backups" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-294.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-10" value="Knowledge schema exports" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#eeeeee;shape=mxgraph.mscae.oms.jobs;labelBackgroundColor=none;fontSize=12;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-373.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qq_xKi_vrYSKfrIKL8If-11" value="&lt;font color=&quot;#878787&quot;&gt;calls&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pCI8PzkVLYFDPNy5AL76-57" target="pCI8PzkVLYFDPNy5AL76-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280.75166666666655" y="-362.56655966393214" as="sourcePoint" />
+            <mxPoint x="107.38250000000016" y="-268.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
