@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T10:04:00.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fQIpCKrJf8zQJJ4sB0kq" version="20.8.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-13T10:06:06.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="5cnj1YGZIQWHbvY-t5ph" version="20.8.3" type="github" pages="6">
   <diagram id="VreeoxrG_G7b2HJ_gmH3" name="Tokens">
     <mxGraphModel dx="2156" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -852,10 +852,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-206.17681159420272" y="384" as="sourcePoint" />
             <mxPoint x="2.913043478260988" y="100" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="-20" y="370" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b9Gv1rl9lpfaLtyGl89C-16" value="cache hit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="6QxFM3XdUY9iNwDknqpV-7">
+        <mxCell id="b9Gv1rl9lpfaLtyGl89C-16" value="cache miss" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="6QxFM3XdUY9iNwDknqpV-7">
           <mxGeometry x="-0.0343" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -985,7 +987,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b9Gv1rl9lpfaLtyGl89C-21" value="Queue" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.tape;fontSize=18;fontColor=#666666;fillColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-32" y="528" width="63" height="60" as="geometry" />
+          <mxGeometry x="-20" y="530" width="63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b9Gv1rl9lpfaLtyGl89C-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;fontStyle=0;" edge="1" parent="1" source="b9Gv1rl9lpfaLtyGl89C-20" target="b9Gv1rl9lpfaLtyGl89C-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1006,8 +1008,13 @@
             <mxPoint x="-268" y="253.77388535031832" as="sourcePoint" />
             <mxPoint x="-28.813953488372135" y="90" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="80" y="300" />
+              <mxPoint x="80" y="330" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mAZiK24C6J3yM-dGHe9c-1" value="Bulk write request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="b9Gv1rl9lpfaLtyGl89C-26">
+          <mxGeometry x="-0.2142" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xnT7fWaEqd5uLUge_K9O-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;fontStyle=0;entryX=0.038;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L-aIYxLEkXDc5YA5J0Xo-5" target="hF-jqomDjzy7D4nDmvvn-29">
@@ -1019,7 +1026,7 @@
         </mxCell>
         <mxCell id="xnT7fWaEqd5uLUge_K9O-10" value="Write request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="xnT7fWaEqd5uLUge_K9O-2">
           <mxGeometry x="0.2729" y="5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="138" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
