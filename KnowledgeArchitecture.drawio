@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T08:30:50.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fzc04iNkADUEcsQ_B5zg" version="20.8.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-13T08:32:50.975Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fjqkvzvMJuotLGNlmTPf" version="20.8.3" type="github" pages="6">
   <diagram id="VreeoxrG_G7b2HJ_gmH3" name="Tokens">
     <mxGraphModel dx="2156" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -795,6 +795,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xnT7fWaEqd5uLUge_K9O-7" value="Write request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="6QxFM3XdUY9iNwDknqpV-1">
+          <mxGeometry x="0.0128" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6QxFM3XdUY9iNwDknqpV-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;fontStyle=0;" edge="1" parent="1" source="L-aIYxLEkXDc5YA5J0Xo-23" target="L-aIYxLEkXDc5YA5J0Xo-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-208" y="12.590551181102455" as="sourcePoint" />
@@ -812,6 +817,11 @@
             <mxPoint x="-80" y="280" as="sourcePoint" />
             <mxPoint x="-7.086956521739012" y="90" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnT7fWaEqd5uLUge_K9O-8" value="Write request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="6QxFM3XdUY9iNwDknqpV-4">
+          <mxGeometry x="-0.0163" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6QxFM3XdUY9iNwDknqpV-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;fontStyle=0;" edge="1" parent="1" source="L-aIYxLEkXDc5YA5J0Xo-17" target="L-aIYxLEkXDc5YA5J0Xo-4">
@@ -862,6 +872,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xnT7fWaEqd5uLUge_K9O-11" value="Write request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="6QxFM3XdUY9iNwDknqpV-8">
+          <mxGeometry x="0.051" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6QxFM3XdUY9iNwDknqpV-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;fontStyle=0;" edge="1" parent="1" source="L-aIYxLEkXDc5YA5J0Xo-4" target="hF-jqomDjzy7D4nDmvvn-95">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-216.17681159420272" y="374" as="sourcePoint" />
@@ -874,6 +889,11 @@
             <mxPoint x="-206.17681159420272" y="384" as="sourcePoint" />
             <mxPoint x="2.913043478260988" y="100" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnT7fWaEqd5uLUge_K9O-9" value="Write request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="6QxFM3XdUY9iNwDknqpV-10">
+          <mxGeometry x="-0.0882" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6QxFM3XdUY9iNwDknqpV-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;strokeColor=#878787;fontStyle=0;" edge="1" parent="1" target="hF-jqomDjzy7D4nDmvvn-101">
@@ -995,6 +1015,11 @@
             <mxPoint x="41.8951612903229" y="-20" as="sourcePoint" />
             <mxPoint x="288" y="180.1114754098362" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnT7fWaEqd5uLUge_K9O-10" value="Write request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#666666;" vertex="1" connectable="0" parent="xnT7fWaEqd5uLUge_K9O-2">
+          <mxGeometry x="0.2729" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
